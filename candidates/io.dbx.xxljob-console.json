@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "io.dbx.xxljob-console",
+  "publisher": "ezreal-byte",
+  "version": "0.3.1",
+  "name": "XXL-JOB Console",
+  "description": "Manage XXL-JOB reports, jobs, logs, executors and users in DBX.",
+  "icon": "https://raw.githubusercontent.com/Ezreal-byte/dbx-plugin-xxl-job-console/v0.3.1/assets/plugin.svg",
+  "tags": [
+    "xxl-job",
+    "scheduler",
+    "jobs"
+  ],
+  "permissions": [
+    "host.workbench"
+  ],
+  "source": "https://github.com/Ezreal-byte/dbx-plugin-xxl-job-console/tree/v0.3.1",
+  "homepage": "https://github.com/Ezreal-byte/dbx-plugin-xxl-job-console",
+  "license": "MIT",
+  "releaseNotes": "Dense bordered tables, labeled actions, more-menu job operations, inherited DBX fonts, and a live-log demo executor.",
+  "targets": [
+    {
+      "target": "darwin-arm64",
+      "url": "https://github.com/Ezreal-byte/dbx-plugin-xxl-job-console/releases/download/v0.3.1/io.dbx.xxljob-console-0.3.1-darwin-arm64.dbxp",
+      "sha256": "f02800b2becf9c1954c1e9bda9923bff82e81e06222b81ef0d7ffa5c53844706",
+      "size": 4631380
+    },
+    {
+      "target": "darwin-x64",
+      "url": "https://github.com/Ezreal-byte/dbx-plugin-xxl-job-console/releases/download/v0.3.1/io.dbx.xxljob-console-0.3.1-darwin-x64.dbxp",
+      "sha256": "7d7c9b3c10550e4cb5a4c3afadf889dca98f51980cc577dd1c7f8379db38796b",
+      "size": 4841085
+    },
+    {
+      "target": "linux-arm64",
+      "url": "https://github.com/Ezreal-byte/dbx-plugin-xxl-job-console/releases/download/v0.3.1/io.dbx.xxljob-console-0.3.1-linux-arm64.dbxp",
+      "sha256": "d99dde276f85c27cbc7f25eb1f5d871a09e4177a7c97d4e7f94a1eeb1fa98232",
+      "size": 4587505
+    },
+    {
+      "target": "linux-x64",
+      "url": "https://github.com/Ezreal-byte/dbx-plugin-xxl-job-console/releases/download/v0.3.1/io.dbx.xxljob-console-0.3.1-linux-x64.dbxp",
+      "sha256": "8c9404943d35cdf1bf839f040a919ccd00eb35409b32f4422466ea7a6738e545",
+      "size": 4879580
+    },
+    {
+      "target": "windows-arm64",
+      "url": "https://github.com/Ezreal-byte/dbx-plugin-xxl-job-console/releases/download/v0.3.1/io.dbx.xxljob-console-0.3.1-windows-arm64.dbxp",
+      "sha256": "cf2630018987214b8e4b91124260a3eff28ddfec97a0942584d1c99430e24573",
+      "size": 4592236
+    },
+    {
+      "target": "windows-x64",
+      "url": "https://github.com/Ezreal-byte/dbx-plugin-xxl-job-console/releases/download/v0.3.1/io.dbx.xxljob-console-0.3.1-windows-x64.dbxp",
+      "sha256": "ff1dd3a1f98b28059ea0ae2ff2749d4d6670e00c5addc4070c1112fdee01a710",
+      "size": 4910593
+    }
+  ]
+}
