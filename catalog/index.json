@@ -681,7 +681,7 @@
       "description": "Browse, manage and inspect OCI / Harbor container registries from a single workbench: project and namespace navigation, tag rename and delete, per-layer size analysis, Trivy CVE reports, registry-wide charts and multi-arch breakdowns.",
       "publisher": "leavingrain",
       "verified": false,
-      "icon": "https://dl.dbxio.com/plugins/com.leavingrain.imrepo/0.1.7/icon.svg",
+      "icon": "https://dl.dbxio.com/plugins/com.leavingrain.imrepo/0.1.8/icon.svg",
       "tags": [
         "registry",
         "harbor",
@@ -694,8 +694,57 @@
       "source": "https://github.com/Zer0ON1/dbx-plugin-imrepo",
       "homepage": "https://github.com/Zer0ON1/dbx-plugin-imrepo",
       "license": "Apache-2.0",
-      "latestVersion": "0.1.7",
+      "latestVersion": "0.1.8",
       "versions": [
+        {
+          "version": "0.1.8",
+          "releasedAt": "2026-10-15T01:56:21.280Z",
+          "releaseNotes": "Docker Registry v2 projects (namespaces), registry overview charts, and one badge per architecture in the image views.",
+          "artifacts": [
+            {
+              "target": "darwin-arm64",
+              "url": "https://dl.dbxio.com/plugins/com.leavingrain.imrepo/0.1.8/com.leavingrain.imrepo-0.1.8-darwin-arm64.dbxp",
+              "sha256": "f982448be4a133222a22185f695cab99f59c26076378e471c072606758f4915b",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 4612258
+            },
+            {
+              "target": "darwin-x64",
+              "url": "https://dl.dbxio.com/plugins/com.leavingrain.imrepo/0.1.8/com.leavingrain.imrepo-0.1.8-darwin-x64.dbxp",
+              "sha256": "9400a089d21381591063da52ab2437196b6b27539f11e634d175c7ee18d96fb8",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 4859358
+            },
+            {
+              "target": "linux-arm64",
+              "url": "https://dl.dbxio.com/plugins/com.leavingrain.imrepo/0.1.8/com.leavingrain.imrepo-0.1.8-linux-arm64.dbxp",
+              "sha256": "10a3570948bb7dfcbf3bf6539bbb2b330e85089943df16aef97c6b775f38d2ad",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 4565250
+            },
+            {
+              "target": "linux-x64",
+              "url": "https://dl.dbxio.com/plugins/com.leavingrain.imrepo/0.1.8/com.leavingrain.imrepo-0.1.8-linux-x64.dbxp",
+              "sha256": "92b7b1ae62ae425f38f58aff061313831ee8e5237435b2504484fd2094e05175",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 4894807
+            },
+            {
+              "target": "windows-arm64",
+              "url": "https://dl.dbxio.com/plugins/com.leavingrain.imrepo/0.1.8/com.leavingrain.imrepo-0.1.8-windows-arm64.dbxp",
+              "sha256": "c7db63286833e8a2b718d3f2ac848d3b1a58e0abaaafddd52fad6a0f51b849bf",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 4573274
+            },
+            {
+              "target": "windows-x64",
+              "url": "https://dl.dbxio.com/plugins/com.leavingrain.imrepo/0.1.8/com.leavingrain.imrepo-0.1.8-windows-x64.dbxp",
+              "sha256": "a415d66e195cc2ed2a08272f39733b63d5835f3410395545fa5a7dd46ed21157",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 4934796
+            }
+          ]
+        },
         {
           "version": "0.1.7",
           "releasedAt": "2026-10-08T09:04:12.490Z",
@@ -953,7 +1002,7 @@
       "description": "Markdown 笔记，支持连接类型：在 DBX 中新建「AI.MD 笔记」连接即可打开笔记工作台。笔记落盘到连接配置里的存储目录，并可作为 mdnotes:// 虚拟文件系统浏览编辑。内置 AI 助手（右侧常驻栏），可接入任意 OpenAI 兼容 / Anthropic / Ollama 模型对笔记做分析、润色、续写与问答。",
       "publisher": "lwai",
       "verified": false,
-      "icon": "https://dl.dbxio.com/plugins/com.lwai.mdnotes/0.8.6/icon.svg",
+      "icon": "https://dl.dbxio.com/plugins/com.lwai.mdnotes/0.8.8/icon.svg",
       "tags": [
         "md",
         "notes",
@@ -967,8 +1016,36 @@
       "source": "https://github.com/lukelwai/dbx-md-notes",
       "homepage": "https://github.com/lukelwai/dbx-md-notes",
       "license": "Apache-2.0",
-      "latestVersion": "0.8.6",
+      "latestVersion": "0.8.8",
       "versions": [
+        {
+          "version": "0.8.8",
+          "releasedAt": "2026-10-15T01:45:11.867Z",
+          "releaseNotes": "工具栏瘦身：「插入 SQL 块」和「AI 助手」常驻，导出 / 备份 / 恢复 / 为表新建笔记收进「更多」下拉 —— 窄窗口下不再被挤成两行；点空白处或按 Esc 收起，点任一项执行后自动收起。所有动作的 id 与行为都没变，只是换了位置。",
+          "artifacts": [
+            {
+              "target": "darwin-arm64",
+              "url": "https://dl.dbxio.com/plugins/com.lwai.mdnotes/0.8.8/com.lwai.mdnotes-0.8.8-darwin-arm64.dbxp",
+              "sha256": "a7eb03762ab4b8a5cc48aa82d6c806c2913e15aa39b835f1d4bee33007d9492e",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 5218529
+            },
+            {
+              "target": "linux-x64",
+              "url": "https://dl.dbxio.com/plugins/com.lwai.mdnotes/0.8.8/com.lwai.mdnotes-0.8.8-linux-x64.dbxp",
+              "sha256": "f08154969b6e91050dc626bbd4f412e611c6c7f1eef135e8770e89d920205866",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 5394939
+            },
+            {
+              "target": "windows-x64",
+              "url": "https://dl.dbxio.com/plugins/com.lwai.mdnotes/0.8.8/com.lwai.mdnotes-0.8.8-windows-x64.dbxp",
+              "sha256": "0cb3907cc2e328894be9f1d241d3714442c97ab960a2564ed771a3d39fda47e3",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 5459051
+            }
+          ]
+        },
         {
           "version": "0.8.6",
           "releasedAt": "2026-10-12T07:22:24.322Z",
@@ -6063,7 +6140,7 @@
       "description": "Analyze DBX Estimated Plans with structured parsing, plan-tree visualization, deterministic findings, and hotspot detection.",
       "publisher": "0verme",
       "verified": false,
-      "icon": "https://dl.dbxio.com/plugins/io.github.0verme.plan-detective/0.7.0/icon.svg",
+      "icon": "https://dl.dbxio.com/plugins/io.github.0verme.plan-detective/0.7.1/icon.svg",
       "tags": [
         "database",
         "sql",
@@ -6076,8 +6153,22 @@
       "source": "https://github.com/0verme/dbx-plugin-plan-detective/tree/v0.5.4",
       "homepage": "https://github.com/0verme/dbx-plugin-plan-detective",
       "license": "Apache-2.0",
-      "latestVersion": "0.7.0",
+      "latestVersion": "0.7.1",
       "versions": [
+        {
+          "version": "0.7.1",
+          "releasedAt": "2026-10-15T01:50:09.704Z",
+          "releaseNotes": "",
+          "artifacts": [
+            {
+              "target": "universal",
+              "url": "https://dl.dbxio.com/plugins/io.github.0verme.plan-detective/0.7.1/io.github.0verme.plan-detective-0.7.1-universal.dbxp",
+              "sha256": "48fd3fb511c2c5288d38ab4876e88e695988431c8866ed43089d411cdcab2991",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 108005
+            }
+          ]
+        },
         {
           "version": "0.7.0",
           "releasedAt": "2026-10-14T06:22:47.266Z",
