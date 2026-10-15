@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "id": "io.dbx.docker",
+  "publisher": "ezreal-byte",
+  "version": "0.3.1",
+  "targets": [
+    {
+      "target": "darwin-arm64",
+      "url": "https://github.com/Ezreal-byte/dbx-docker-plugin/releases/download/v0.3.1/io.dbx.docker-0.3.1-darwin-arm64.dbxp",
+      "sha256": "b3083f9c93cece0da6b04f7c8990aca336c7c300b248a0925033197729334fdd",
+      "size": 7450816
+    },
+    {
+      "target": "darwin-x64",
+      "url": "https://github.com/Ezreal-byte/dbx-docker-plugin/releases/download/v0.3.1/io.dbx.docker-0.3.1-darwin-x64.dbxp",
+      "sha256": "839a1c56ff3968749b4fe9155b57e06ea81daf122f6d1df5ca8cc3a931c2e40a",
+      "size": 7910435
+    },
+    {
+      "target": "linux-arm64",
+      "url": "https://github.com/Ezreal-byte/dbx-docker-plugin/releases/download/v0.3.1/io.dbx.docker-0.3.1-linux-arm64.dbxp",
+      "sha256": "1fffdd246c1ec6ba025344032bc307aacc8e77d90291e593e0a0db01da38ecfd",
+      "size": 7198273
+    },
+    {
+      "target": "linux-x64",
+      "url": "https://github.com/Ezreal-byte/dbx-docker-plugin/releases/download/v0.3.1/io.dbx.docker-0.3.1-linux-x64.dbxp",
+      "sha256": "db5d1d520cf5692270d91d2334ce87a952fc7fa82f9c779c11df65e9aaababc3",
+      "size": 7796578
+    },
+    {
+      "target": "windows-x64",
+      "url": "https://github.com/Ezreal-byte/dbx-docker-plugin/releases/download/v0.3.1/io.dbx.docker-0.3.1-windows-x64.dbxp",
+      "sha256": "0b2ef5157830f1fa24da7fd8948350fa2f83a70c8c9f6ee4d74d7b02f3a50764",
+      "size": 7948859
+    }
+  ],
+  "permissions": [
+    "host.ai",
+    "host.binary",
+    "host.workbench"
+  ],
+  "name": "Docker",
+  "description": "Manage Docker containers, images, volumes, networks and Compose, with built-in DBX AI and MCP tools for queries and permission-controlled operations.",
+  "icon": "https://raw.githubusercontent.com/Ezreal-byte/dbx-docker-plugin/v0.3.1/assets/plugin.svg",
+  "tags": [
+    "docker",
+    "containers",
+    "compose",
+    "ai",
+    "mcp"
+  ],
+  "source": "https://github.com/Ezreal-byte/dbx-docker-plugin/tree/v0.3.1",
+  "homepage": "https://github.com/Ezreal-byte/dbx-docker-plugin",
+  "license": "Apache-2.0",
+  "releaseNotes": "Adds built-in DBX AI Agent and external MCP tools with default-off per-connection permissions; resource details and network/volume management; YAML Compose editing, compact themed tables, file menus/previews and unified transfer tasks; backend preview/confirmation gates for destructive operations. Adds Windows named pipes, optional OS-default local sockets and native Windows pipe paths. Fixes SSH nc/sudo nc MaxSessions exhaustion with shared session limits, cancellable queues, idle expiry and bounded retries before Docker requests. Requires DBX 0.6.43 or newer.",
+  "localizations": {
+    "en": {
+      "name": "Docker",
+      "description": "Manage Docker containers, images, volumes, networks and Compose, with built-in DBX AI and MCP tools for queries and permission-controlled operations."
+    },
+    "zh-CN": {
+      "name": "Docker",
+      "description": "Docker 管理工作台：容器、镜像、卷、网络、日志、文件、监控与 Compose；支持 DBX 内置 AI 和 MCP 查询及按连接授权的管理操作。"
+    },
+    "zh": {
+      "name": "Docker",
+      "description": "Docker 管理工作台：容器、镜像、卷、网络、日志、文件、监控与 Compose；支持 DBX 内置 AI 和 MCP 查询及按连接授权的管理操作。"
+    }
+  }
+}
