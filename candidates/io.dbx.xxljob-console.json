@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "io.dbx.xxljob-console",
+  "publisher": "ezreal-byte",
+  "version": "0.3.3",
+  "permissions": [
+    "host.workbench"
+  ],
+  "source": "https://github.com/Ezreal-byte/dbx-plugin-xxl-job-console/tree/v0.3.3",
+  "releaseNotes": "Fix HTTP 400 when listing executors on Admin 3.1.0 by sending required empty appname/title filters. Preserve unfiltered results, permission checks and both existing API profiles; this query fix does not establish full Admin 3.2.0 SSO compatibility. Emit plugin + artifacts release metadata for DBX Store scanning and add Windows/Linux CI with native package handshake checks.",
+  "targets": [
+    {
+      "target": "darwin-arm64",
+      "url": "https://github.com/Ezreal-byte/dbx-plugin-xxl-job-console/releases/download/v0.3.3/io.dbx.xxljob-console-0.3.3-darwin-arm64.dbxp",
+      "sha256": "a779998505e3fd4f98993287f9a8349b68b7099ef81dac8781b000bd530c4127",
+      "size": 4634790
+    },
+    {
+      "target": "darwin-x64",
+      "url": "https://github.com/Ezreal-byte/dbx-plugin-xxl-job-console/releases/download/v0.3.3/io.dbx.xxljob-console-0.3.3-darwin-x64.dbxp",
+      "sha256": "98a2fcaaf2ae35d8a4eaf9e27be896e31a135e73ab227700489b6a25c70d9dfc",
+      "size": 4846821
+    },
+    {
+      "target": "linux-arm64",
+      "url": "https://github.com/Ezreal-byte/dbx-plugin-xxl-job-console/releases/download/v0.3.3/io.dbx.xxljob-console-0.3.3-linux-arm64.dbxp",
+      "sha256": "0713c44db22d2c2c4b94663c31cf0fa3047b676e6b3983cab6a3a80c2fd0885a",
+      "size": 4594136
+    },
+    {
+      "target": "linux-x64",
+      "url": "https://github.com/Ezreal-byte/dbx-plugin-xxl-job-console/releases/download/v0.3.3/io.dbx.xxljob-console-0.3.3-linux-x64.dbxp",
+      "sha256": "478a0704b5e63e152694ff15fff63b4ebcc79e7d0029374f768136b36dae0fc1",
+      "size": 4886943
+    },
+    {
+      "target": "windows-arm64",
+      "url": "https://github.com/Ezreal-byte/dbx-plugin-xxl-job-console/releases/download/v0.3.3/io.dbx.xxljob-console-0.3.3-windows-arm64.dbxp",
+      "sha256": "b00f8fef9f2c4b346adaf464c8721a9ba6ec04da56871ff7a3a016d4eae6a50d",
+      "size": 4598020
+    },
+    {
+      "target": "windows-x64",
+      "url": "https://github.com/Ezreal-byte/dbx-plugin-xxl-job-console/releases/download/v0.3.3/io.dbx.xxljob-console-0.3.3-windows-x64.dbxp",
+      "sha256": "8fe8cf2be9c8cb7a31a3ab354745af8a33d521d8ae79fc90ae3a5edb3885c3ef",
+      "size": 4914507
+    }
+  ]
+}
