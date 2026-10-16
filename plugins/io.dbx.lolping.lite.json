@@ -1,0 +1,51 @@
+{
+  "id": "io.dbx.lolping.lite",
+  "name": "lolPing Lite",
+  "description": "Desktop-wide ping and local emote wheels with native sound, offline emote packs and DBX-integrated settings.",
+  "publisher": "ezreal-byte",
+  "verified": false,
+  "icon": "https://raw.githubusercontent.com/Ezreal-byte/dbx-lolping-plugin/v0.1.0/assets/plugin.png",
+  "tags": [
+    "pings",
+    "emotes",
+    "desktop",
+    "lolping"
+  ],
+  "permissions": [
+    "host.events",
+    "host.binary"
+  ],
+  "source": "https://github.com/Ezreal-byte/dbx-lolping-plugin/tree/v0.1.0",
+  "homepage": "https://github.com/Ezreal-byte/dbx-lolping-plugin",
+  "license": "MIT",
+  "latestVersion": "0.1.0",
+  "versions": [
+    {
+      "version": "0.1.0",
+      "releasedAt": "2026-10-16T10:38:43.566Z",
+      "releaseNotes": "Initial release. Local desktop pings, emotes and settings; no rooms or network synchronization. Rust/WebView sidecar and the upstream C++ input helper replace Electron. Code is MIT licensed; Riot game assets and the upstream icon are excluded from that license.",
+      "artifacts": [
+        {
+          "target": "darwin-arm64",
+          "url": "https://dl.dbxio.com/plugins/io.dbx.lolping.lite/0.1.0/io.dbx.lolping.lite-0.1.0-darwin-arm64.dbxp",
+          "sha256": "a164fcfc29b5bbaeb59601e762980956c00cc434b570d6c6eac15ac2b7ef2359",
+          "signingKeyId": "dbx-store-release-2026",
+          "size": 18273763
+        },
+        {
+          "target": "windows-x64",
+          "url": "https://dl.dbxio.com/plugins/io.dbx.lolping.lite/0.1.0/io.dbx.lolping.lite-0.1.0-windows-x64.dbxp",
+          "sha256": "f65d7084481a70adde9279f093541117f9b1304e42332f3f00ba2f0fc60fe9f1",
+          "signingKeyId": "dbx-store-release-2026",
+          "size": 18349450
+        }
+      ]
+    }
+  ],
+  "localizations": {
+    "zh-CN": {
+      "name": "lolPing 轻量版",
+      "description": "全桌面信号与本地表情轮盘，支持原生音效、离线扩展包与 DBX 内设置。"
+    }
+  }
+}
