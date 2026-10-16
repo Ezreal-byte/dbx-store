@@ -170,6 +170,11 @@
       "repository": "Ezreal-byte/dbx-rocketmq-dashboard",
       "metadataPath": ".dbx-store.json",
       "autoUpdate": true
+    },
+    {
+      "repository": "ma123456mai/ai-config-importer",
+      "metadataPath": ".dbx-store.json",
+      "autoUpdate": true
     }
   ]
 }
