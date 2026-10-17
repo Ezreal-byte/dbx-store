@@ -5134,7 +5134,7 @@
     {
       "id": "io.dbx.lolping.lite",
       "name": "lolPing Lite",
-      "description": "Send LOL pings and emotes over your desktop and other app windows. Adapted from `darrenprx/lolPing`.",
+      "description": "Native desktop ping and emote wheels with low memory use, local sound, offline packs and DBX-integrated settings.",
       "publisher": "ezreal-byte",
       "verified": false,
       "icon": "https://dl.dbxio.com/plugins/io.dbx.lolping.lite/0.2.1/icon.png",
@@ -5199,7 +5199,7 @@
       "localizations": {
         "zh-CN": {
           "name": "lolPing 轻量版",
-          "description": "在桌面及其他软件窗口上打 LOL 信号和表情，基于`darrenprx/lolPing`  改造。"
+          "description": "低内存原生桌面信号与表情轮盘，支持本地音效、离线扩展包和 DBX 内设置。"
         }
       }
     },
