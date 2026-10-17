@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "io.dbx.lolping.lite",
+  "publisher": "ezreal-byte",
+  "version": "0.2.2",
+  "name": "lolPing Lite",
+  "description": "Send LOL pings and emotes over your desktop and other app windows, adapted from darrenprx/lolPing.",
+  "icon": "https://raw.githubusercontent.com/Ezreal-byte/dbx-lolping-plugin/v0.2.2/assets/plugin.png",
+  "tags": [
+    "pings",
+    "emotes",
+    "desktop",
+    "lolping"
+  ],
+  "permissions": [
+    "host.events",
+    "host.binary"
+  ],
+  "source": "https://github.com/Ezreal-byte/dbx-lolping-plugin/tree/v0.2.2",
+  "homepage": "https://github.com/Ezreal-byte/dbx-lolping-plugin",
+  "license": "MIT",
+  "releaseNotes": "Fix a Windows overlay clipping bug: triggering a wheel at a screen edge could leave subsequent wheels partially visible or missing elsewhere. Update changed native window geometry before uploading the frame so the previous clipped region is not reused. Cursor position, wheel anchor, gesture thresholds and direction mapping remain unchanged. Existing settings and imported assets remain compatible. Windows desktop regression covers all four edges and corners, subsequent centered wheels and idle wake. macOS uses a separate surface path; hardware acceptance remains required.",
+  "localizations": {
+    "zh-CN": {
+      "name": "lolPing 轻量版",
+      "description": "在桌面及其他软件窗口上打 LOL 信号和表情，基于 darrenprx/lolPing 改造。"
+    }
+  },
+  "targets": [
+    {
+      "target": "darwin-arm64",
+      "url": "https://github.com/Ezreal-byte/dbx-lolping-plugin/releases/download/v0.2.2/io.dbx.lolping.lite-0.2.2-darwin-arm64.dbxp",
+      "sha256": "88db8606d4bec7c3fd557bdd9da6e7d348b77ffde576ae8bd07e6bf1b297c362",
+      "size": 18754537
+    },
+    {
+      "target": "windows-x64",
+      "url": "https://github.com/Ezreal-byte/dbx-lolping-plugin/releases/download/v0.2.2/io.dbx.lolping.lite-0.2.2-windows-x64.dbxp",
+      "sha256": "436a1c4bebc105db8f6fbeb1ae0294f2d80e54ea97f106bfd844f4d17dc41010",
+      "size": 18882051
+    }
+  ]
+}
