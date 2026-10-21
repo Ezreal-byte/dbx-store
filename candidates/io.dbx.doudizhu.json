@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "io.dbx.doudizhu",
+  "publisher": "ezreal-byte",
+  "version": "0.1.1",
+  "description": "A three-player Dou Dizhu mini-game for your local LAN, with public/password rooms and animated characters.",
+  "icon": "https://raw.githubusercontent.com/Ezreal-byte/dbx-doudizhu-plugin/v0.1.1/assets/plugin.svg",
+  "source": "https://github.com/Ezreal-byte/dbx-doudizhu-plugin/tree/v0.1.1",
+  "releaseNotes": "更新商店中英文简介，使功能描述更简洁清晰。游戏功能、权限和 LAN 协议保持不变；提供 Windows x64 与 macOS 15.4+（Apple Silicon / Intel）安装包。",
+  "localizations": {
+    "zh-CN": {
+      "name": "田园斗地主",
+      "description": "本地局域网三人联机斗地主小游戏，支持公开房、密码房和动态角色互动。"
+    }
+  },
+  "targets": [
+    {
+      "target": "windows-x64",
+      "url": "https://github.com/Ezreal-byte/dbx-doudizhu-plugin/releases/download/v0.1.1/io.dbx.doudizhu-0.1.1-windows-x64.dbxp",
+      "sha256": "3e8ddcb5adc8318359d4762bc41abd67ff45831cecc569e111d0f6fec1c54f84",
+      "size": 24896826
+    },
+    {
+      "target": "darwin-arm64",
+      "url": "https://github.com/Ezreal-byte/dbx-doudizhu-plugin/releases/download/v0.1.1/io.dbx.doudizhu-0.1.1-darwin-arm64.dbxp",
+      "sha256": "b7265ab1e4c0ed7189aa76ce39de26789bc49527dbd37ed69bff355f0b4bd8ca",
+      "size": 24572064
+    },
+    {
+      "target": "darwin-x64",
+      "url": "https://github.com/Ezreal-byte/dbx-doudizhu-plugin/releases/download/v0.1.1/io.dbx.doudizhu-0.1.1-darwin-x64.dbxp",
+      "sha256": "52a02fd929955bdeb009b658a7cc79dc81992b9f2103edfa595aace5004c0607",
+      "size": 24901561
+    }
+  ]
+}
