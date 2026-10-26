@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "io.dbx.rocketmq-dashboard-console",
+  "publisher": "ezreal-byte",
+  "version": "0.3.2",
+  "permissions": [
+    "host.workbench"
+  ],
+  "source": "https://github.com/Ezreal-byte/dbx-rocketmq-dashboard/tree/v0.3.2",
+  "releaseNotes": "修复 #2：ACL 允许/拒绝误显示、通配符规则编辑及策略删除定位；增加来源 IP 白名单、用户 Secret Key 编辑与具体 Broker 错误反馈，保留已禁用用户状态。新增真实 RocketMQ 5.5.0 和 SOCKS5 ACL 回归。",
+  "targets": [
+    {
+      "target": "windows-x64",
+      "url": "https://github.com/Ezreal-byte/dbx-rocketmq-dashboard/releases/download/v0.3.2/io.dbx.rocketmq-dashboard-console-0.3.2-windows-x64.dbxp",
+      "sha256": "ed523ab6081fa8e5a41c9236fdc5fb0996dd256a852bc6be93e510f122df9e12",
+      "size": 3986581
+    }
+  ]
+}
